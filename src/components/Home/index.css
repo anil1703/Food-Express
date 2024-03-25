@@ -1,0 +1,26 @@
+.main-home{
+    width: 80%;
+    margin: auto;
+}
+.home-banner{
+    width: 100%;
+    border-radius: 10px;
+}
+.home-banner-div{
+    margin-top: 20px;
+}
+
+.hr-tag{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    color: grey;
+}
+.topDishes-List{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 25px;
+    
+}

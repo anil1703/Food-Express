@@ -1,0 +1,32 @@
+.topDishItem{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.dish-food-img{
+    height: 200px;
+    border-radius: 12px;
+}
+.inside-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.topDish-name{
+    font-size: 20px;
+    color: #31363F;
+}
+.rating-icon{
+    height: 17px;
+}
+.price-head{
+    font-size: 20px;
+    margin-top: 10px;
+    color: tomato;
+}
+.topDish-para{
+    margin-top: 10px;
+    font-size: 17px;
+    color: grey;
+}

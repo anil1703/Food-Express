@@ -1,0 +1,20 @@
+.menu-section{
+    margin-top: 30px;
+}
+.menu-head{
+    color: #FFAF45;
+}
+.menu-para{
+    margin-top: 10px;
+
+}
+.explore-menu{
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+    overflow-x: scroll;
+    -webkit-scrollbar:none;
+}
+.explore-menu::-webkit-scrollbar{
+    display: none;
+}
