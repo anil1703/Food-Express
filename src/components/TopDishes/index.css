@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     width: 250px;
+    
 }
 .dish-food-img{
     height: 200px;
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 .inside-list{
     display: flex;
@@ -29,4 +31,26 @@
     margin-top: 10px;
     font-size: 17px;
     color: grey;
+}
+.addToCart{
+    align-self: flex-end;
+    margin-top: -40px;
+    margin-right: 5px;
+    height: 35px;
+    padding: 10px;
+    color: tomato;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid tomato;
+
+}
+.addToCart:hover{
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid white;
 }
