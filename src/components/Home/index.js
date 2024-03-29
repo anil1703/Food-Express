@@ -2,6 +2,8 @@ import {Component, Fragment} from "react"
 import NavBar from "../NavBar"
 import ExploreMenu from "../ExploreMenu"
 import TopDishes from "../TopDishes"
+import { BsFacebook ,BsTwitterX,BsInstagram} from "react-icons/bs"
+
 import { v4 as uuidv4 } from 'uuid';
 import {ColorRing} from "react-loader-spinner"
 import "./index.css"
@@ -325,6 +327,75 @@ class Home extends Component{
                 </ul>
                 <hr className="hr-tag"/></>)}
                 
+                <div className="ourservices-section">
+
+                <div className="ourservice-div">
+                        <div className="services-one">
+
+                        <h1>Expree Delivery</h1>
+                        <h3>Fast food just got faster! Try our express delivery for a taste of speed and convenience.</h3>
+                        <p>Welcome to our food Express Services, where satisfaction meets speed. We pride ourselves on providing not just fast, but the fastest delivery in town. With our express delivery option, your favorite dishes are just moments away from your doorstep. Whether you're craving a comforting bowl of pasta or a sizzling burger, we've got you covered with our lightning-fast service. Say goodbye to long waits and hello to instant gratification. Experience the convenience of getting your food delivered at express speed, because when hunger strikes, there's no time to waste.</p>
+
+                        </div>
+                        <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1711711691/Food%20Express/Tosca_Blue_Fast_Delivery_Service_Instagram_Post_ba7nfq.png" alt="Fast Delivery" className="deliveryImg"/>
+                </div>
+                </div>
+                <div className="App-section">
+                      <h1 className="app-head">For Better Experience Download Food Express App</h1>
+                      <div className="logos-div">
+                        <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1711712923/Food%20Express/play_store_jmsrby.png" alt="play strore app" className="app-logo"/>
+                        <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1711712923/Food%20Express/app_store_mdw4gt.png" alt="apple stroe" className="app-logo"/>
+                      </div>
+                </div>
+                <div className="footer-section">
+                        <div>
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1711713684/Food%20Express/food-express-high-resolution-logo-white-transparent_gt5omd.png" className="fotter-logo" alt="footer loogo"/>
+
+                        </div>
+                        <div className="footer-nums">
+                            <div className="footer">
+                            <p className="footer-head">ABOUT FOOD EXPRESS</p>
+                            <p className="footer-para">Who We are</p>
+                            <p className="footer-para">Blog</p>
+                            <p className="footer-para">Investor Relations</p>
+                            <p className="footer-para">Report Faurd</p>
+                            <p className="footer-para">Press Kit</p>
+                            <p className="footer-para">Contact Us</p>
+                            </div>
+                            <div className="footer">
+                            <p className="footer-head">EXPRESSVERSE</p>
+                            <p className="footer-para">Express</p>
+                            <p className="footer-para">Blinkit</p>
+                            <p className="footer-para">Feeding India</p>
+                            <p className="footer-para">Hyperpure</p>
+                            <p className="footer-para">Express Land</p>
+                            </div>
+                            <div className="footer">
+                            <p className="footer-head">FOR RESTAURANTS</p>
+                            <p className="footer-para">Partner With Us</p>
+                            <p className="footer-para">Apps For You</p>
+                            </div>
+                            <div className="footer">
+                            <p className="footer-head">LEARN MORE</p>
+                            <p className="footer-para">Privacy</p>
+                            <p className="footer-para">Security</p>
+                            <p className="footer-para">Terms</p>
+                            <p className="footer-para">Sitemap</p>
+                            </div>
+                            <div className="footer">
+                            <p className="footer-head">SOCIAL LINKS</p>
+                            <div className="icons-footer-div">
+                                <BsFacebook/>
+                                <BsTwitterX/>
+                                <BsInstagram/>
+                            </div>
+                            <div className="footer-apps-div">
+                            <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1711712923/Food%20Express/play_store_jmsrby.png" alt="play strore app" className="app-logo-footer"/>
+                        <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1711712923/Food%20Express/app_store_mdw4gt.png" alt="apple stroe" className="app-logo-footer"/>
+                            </div>
+                            </div>
+                        </div>
+                </div>
 
             </div>
         )

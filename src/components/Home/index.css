@@ -34,6 +34,102 @@
     justify-content: center;
 }
 
+.ourservice-div{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 15px;
+    height: 50vh;
+}
+
+.deliveryImg{
+    height: 400px;
+    border-radius: 12px;
+}
+
+.services-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.services-one h1{
+    color: tomato;
+}
+.services-one h3{
+    color:grey;
+}
+
+.App-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    gap: 30px;
+}
+.app-head{
+    font-weight: 500;
+    width: 600px;
+    text-align: center;
+}
+.logos-div{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-section{
+    background-color: #31363F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 30px;
+}
+
+.fotter-logo{
+    height: 50px;
+}
+.footer-nums{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer-head{
+    color: white;
+    margin-bottom: 10px;
+}
+.footer-para{
+    color: #eeeeee47;
+    font-weight: 150;
+    cursor: pointer;
+}
+.footer-para:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.icons-footer-div{
+    font-size: 20px;
+    color: #eeeeee47;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-footer-div:hover{
+    cursor: pointer;
+    color: white;
+}
+.footer-apps-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.app-logo-footer{
+    height: 35px;
+    cursor: pointer;
+}
 @media (max-width:768px) {
     .topDishes-List{
         align-items: center;
