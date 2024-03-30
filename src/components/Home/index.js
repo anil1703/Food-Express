@@ -3,7 +3,7 @@ import NavBar from "../NavBar"
 import ExploreMenu from "../ExploreMenu"
 import TopDishes from "../TopDishes"
 import { BsFacebook ,BsTwitterX,BsInstagram} from "react-icons/bs"
-
+import LocalContext from "../../context/LocalContext"
 import { v4 as uuidv4 } from 'uuid';
 import {ColorRing} from "react-loader-spinner"
 import "./index.css"
@@ -301,8 +301,13 @@ class Home extends Component{
     
     render(){
         const {Dishes,isLoading,cartList} = this.state
-        return(
-            <div className="main-home">
+        return <LocalContext.Provider value={{
+            cartList,
+            managingCartElements:this.managingCartElements
+        }}>
+
+            return(
+                <div className="main-home">
                 <NavBar/>
                 <div className="home-banner-div">
                     <img src="https://res.cloudinary.com/dafmi9027/image/upload/v1711283333/Food%20Express/Yellow_Creative_Noodle_Food_Promotion_Banner_nz8frj.jpg" alt="banner" className="home-banner"/>
@@ -399,6 +404,7 @@ class Home extends Component{
 
             </div>
         )
+        </LocalContext.Provider>
     }
 }
 export default Home
